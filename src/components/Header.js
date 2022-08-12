@@ -59,7 +59,7 @@ export default class Header extends Component {
             aria-label="Toggle navigation"
           >
             Menu
-            <i className="fas fa-bars"></i>
+            <i className="fas"></i>
           </button>
           <div
             className={`collapse navbar-collapse ${openMenu ? 'show' : ''}`}

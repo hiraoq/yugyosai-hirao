@@ -1,8 +1,18 @@
 #mainNav {
-  min-height: 56px;
-  background-color: $white;
+  min-height: 50px;
+  background:  linear-gradient(
+    to bottom,
+    #{fade-out($black, 0.1)} 60%,
+    #{fade-out($black, 0.3)} 90%,
+    );
+  .nav-link{
+    color: fade-out(aquamarine, 0.2);
+    .social{
+      color:fade-out(aquamarine, 0.2);
+    }
+  }
   .navbar-toggler {
-    font-size: 80%;
+    font-size: 40%;
     padding: 0.75rem;
     color: $primary;
     border: 1px solid $primary;
@@ -11,7 +21,7 @@
     }
   }
   .navbar-brand {
-    color: $black;
+    color:  $gray-400;
     font-weight: 700;
     padding: .9rem 0;
     font-family:'Nunito';
@@ -50,11 +60,11 @@
         font-size: large;
         color:white;
         &:hover{
-          color:maroon;
+          color:aquamarine;
         }
       }
       &:hover{
-        color:maroon;
+        color:aquamarine;
       }
       &:active {
         color: white;
