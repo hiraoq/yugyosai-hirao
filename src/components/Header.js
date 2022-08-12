@@ -84,7 +84,7 @@ export default class Header extends Component {
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    イカ
+                    メッセージ
                   </a>
                 </Scroll>
               </li>
@@ -114,13 +114,24 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="contact"
+                  element="social-link"
                 >
-                  <a className="nav-link" href="#contact">
+                  <a className="nav-link" href="#social-link">
                     ご連絡・アクセス
                   </a>
                 </Scroll>
               </li>
+              {config.socialLinks.map(social => {
+                const { icon, url } = social;
+                return (
+                  <li className="nav-item nav-link">
+                    <a key={url} href={url} className="social">
+                      <i className={`fab ${icon}`}></i>
+                      <a className='not-hover'>{social.name}</a>
+                    </a>
+                  </li>
+                );
+              })}
             </ul>
           </div>
         </div>

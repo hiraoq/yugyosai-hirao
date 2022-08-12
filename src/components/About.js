@@ -7,9 +7,9 @@ export default function About() {
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">イカの仕入れは不安定です</h2>
+            <h2 className="text-white mb-4">メッセージ</h2>
             <p className="text-white-50">
-              イカは不漁により提供できないことが多々あります。
+              メッセージメッセージメッセージ
             </p>
           </div>
         </div>

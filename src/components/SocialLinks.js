@@ -3,7 +3,7 @@ import config from '../../config';
 
 export default function SocialLinks() {
   return (
-    <section className="contact-section bg-black">
+    <section id="social-link" className="contact-section bg-black">
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-md-4 mb-3 mb-md-0">

@@ -8,7 +8,7 @@ import interior4 from '../assets/images/interior-04.jpg';
 export default function Interior() {
   return (
     <>
-      <div className="container" id="interior">
+      <div className="container containers-bottom" id="interior">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgInterior} alt="" />
@@ -50,10 +50,9 @@ export default function Interior() {
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <p className="mb-0 text-white">
-                    木の感じ
+                    木の部屋
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
-                  文字中央ぞろえにしたい
                 </div>
               </div>
             </div>

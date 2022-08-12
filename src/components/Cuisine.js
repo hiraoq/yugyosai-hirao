@@ -80,7 +80,7 @@ export default function Cuisine() {
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h3 className="text-white">せんざんき</h3>
+                  <h3 className="text-white">いか寿司</h3>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>
@@ -95,7 +95,7 @@ export default function Cuisine() {
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h3 className="text-white">天ぷら</h3>
+                  <h3 className="text-white">てっちり？</h3>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
               </div>
@@ -110,7 +110,7 @@ export default function Cuisine() {
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h3 className="text-white">いかまんじゅう</h3>
+                  <h3 className="text-white">ランチ営業もしています</h3>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

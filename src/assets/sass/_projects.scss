@@ -19,7 +19,7 @@
       }
     }
   }
-  .container{
+  .container:not(.containers-bottom){
     margin-bottom: 10rem;
   }
 }
