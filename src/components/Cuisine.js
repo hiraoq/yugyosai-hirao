@@ -110,7 +110,7 @@ export default function Cuisine() {
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h3 className="text-white">ランチ営業もしています</h3>
+                  <h3 className="text-white">ランチ営業</h3>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
               </div>

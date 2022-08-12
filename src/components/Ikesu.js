@@ -52,7 +52,7 @@ export default function Ikesu() {
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <p className="mb-0 text-white">
-                    珍しい魚もいるかも
+                    魚
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
