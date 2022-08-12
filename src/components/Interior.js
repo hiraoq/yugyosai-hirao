@@ -8,7 +8,7 @@ import interior4 from '../assets/images/interior-04.jpg';
 export default function Interior() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="interior">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgInterior} alt="" />

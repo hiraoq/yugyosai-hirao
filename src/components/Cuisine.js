@@ -10,7 +10,7 @@ import cuisine6 from '../assets/images/cuisine-06.jpg';
 export default function Cuisine() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="cuisine">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgCuisine} alt="" />

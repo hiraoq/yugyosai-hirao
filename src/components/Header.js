@@ -40,14 +40,19 @@ export default class Header extends Component {
         id="mainNav"
       >
         <div className="container">
-          <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
-          </a>
+          <Scroll
+            onClick={_ => this.toggleMenu(!openMenu)}
+            type="id"
+            element="page-top"
+          >
+            <a className="navbar-brand" href="#page-top">
+              {config.siteTitle}
+            </a>
+          </Scroll>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
-            className={`navbar-toggler navbar-toggler-right ${
-              openMenu ? '' : 'collapsed'
-            }`}
+            className={`navbar-toggler navbar-toggler-right ${openMenu ? '' : 'collapsed'
+              }`}
             type="button"
             aria-controls="navbarResponsive"
             aria-expanded={openMenu}
@@ -65,10 +70,21 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
+                  element="cuisine"
+                >
+                  <a className="nav-link" href="#cuisine">
+                    お料理
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
                   element="about"
                 >
                   <a className="nav-link" href="#about">
-                    About
+                    イカ
                   </a>
                 </Scroll>
               </li>
@@ -76,10 +92,10 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="projects"
+                  element="ikesu"
                 >
-                  <a className="nav-link" href="#projects">
-                    Projects
+                  <a className="nav-link" href="#ikesu">
+                    いけす
                   </a>
                 </Scroll>
               </li>
@@ -87,10 +103,21 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
+                  element="interior"
                 >
-                  <a className="nav-link" href="#signup">
-                    Contact
+                  <a className="nav-link" href="#interior">
+                    内装
+                  </a>
+                </Scroll>
+              </li>
+              <li className="nav-item">
+                <Scroll
+                  onClick={_ => this.toggleMenu(!openMenu)}
+                  type="id"
+                  element="contact"
+                >
+                  <a className="nav-link" href="#contact">
+                    ご連絡・アクセス
                   </a>
                 </Scroll>
               </li>

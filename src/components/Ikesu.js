@@ -8,7 +8,7 @@ import ikesu4 from '../assets/images/ikesu-04.jpg';
 export default function Ikesu() {
   return (
     <>
-      <div className="container">
+      <div className="container" id="ikesu">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
             <img className="img-fluid mb-3 mb-lg-0" src={bgIkesu} alt="" />
