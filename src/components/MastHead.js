@@ -1,5 +1,4 @@
 import React from 'react';
-import title from '../assets/images/title.png';
 
 
 export default function MastHead() {
